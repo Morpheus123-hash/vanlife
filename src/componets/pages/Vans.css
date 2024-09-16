@@ -1,0 +1,693 @@
+.van-cards{
+    width: 100%;
+    /* background-color: blue;  */
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.head-1{
+    margin-left: 20px;
+}
+
+.buttons{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    /* background-color: blue; */
+}
+
+.butt-1{
+    padding: 12px 40px;
+    background-color: rgb(253, 161, 80);
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+.butt-1:hover{
+    transition: ease-in-out 1s;
+    transform: scale(1.1);
+    background-color: rgb(233, 116, 0);
+}
+
+.butt-2{
+    padding: 12px 40px;
+    background-color: rgb(253, 161, 80);
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+.butt-2:hover{
+    transition: ease-in-out 1s;
+    transform: scale(1.1);
+    background-color: black;
+}
+
+.butt-3{
+    padding: 12px 40px;
+    background-color: rgb(253, 161, 80);
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+.butt-3:hover{
+    transition: ease-in-out 1s;
+    transform: scale(1.1);
+    background-color: rgb(0, 61, 5);
+}
+
+.link-1{
+   margin-top: 18px;
+}
+
+/* Cards/image/price */
+
+.cards-1{
+    width: 100%;
+    height: 70vh;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.card-1{
+    width: 26%;
+    height: 70vh;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.image-1{
+    width: 100%;
+    height: 60vh;
+    background-image: url(../images/Rectangle-162.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.price-1{
+      display: flex; 
+      justify-content: space-between;
+}
+
+span{
+    font-size: 15px;
+    font-weight: lighter;
+    
+}
+
+.butt-4{
+    padding: 8px 40px;
+    margin-top: -30px;
+    display: flex;
+    background-color: rgb(255, 173, 92);
+    color: white;
+    border: none;
+    border-radius: 8px;
+} 
+
+.butt-4:hover{
+    transition: ease-in-out 1s;
+    transform: scale(1.1);
+}
+
+
+
+.card-2{
+    width: 26%;
+    height: 70vh; 
+    border-radius: 5px;  
+    justify-content: space-between;
+}
+
+.image-2{
+    width: 100%;
+    height: 60vh;
+    background-image: url(../images/image-57.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.price-2{
+    display: flex; 
+    justify-content: space-between;
+}
+
+.butt-5{
+    padding: 8px 40px;
+    margin-top: -30px;
+    display: flex;
+    background-color: rgb(5, 4, 3);
+    color: white;
+    border: none;
+    border-radius: 8px;
+} 
+
+.butt-5:hover{
+    transition: ease-in-out 1s;
+    transform: scale(1.1);
+}
+
+
+
+.cards-2{
+    width: 100%;
+    height: 70vh;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.card-3{
+    width: 26%;
+    height: 70vh;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.image-3{
+    width: 100%;
+    height: 60vh;
+    background-image: url(../images/image-55.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.price-3{
+      display: flex; 
+      justify-content: space-between;
+}
+
+.butt-6{
+    padding: 8px 40px;
+    margin-top: -30px;
+    display: flex;
+    background-color: rgb(255, 173, 92);
+    color: white;
+    border: none;
+    border-radius: 8px;
+} 
+
+.butt-6:hover{
+    transition: ease-in-out 1s;
+    transform: scale(1.1);
+}
+
+.card-4{
+    width: 26%;
+    height: 70vh; 
+    border-radius: 5px;  
+    justify-content: space-between;
+}
+
+.image-4{
+    width: 100%;
+    height: 60vh;
+    background-image: url(../images/Rectangle-163.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.price-4{
+    display: flex; 
+    justify-content: space-between;
+}
+
+.butt-6{
+    padding: 8px 40px;
+    margin-top: -30px;
+    display: flex;
+    background-color: rgb(5, 4, 3);
+    color: white;
+    border: none;
+    border-radius: 8px;
+} 
+
+.butt-6:hover{
+    transition: ease-in-out 1s;
+    transform: scale(1.1);
+}
+
+
+
+.cards-3{
+    width: 100%;
+    height: 70vh;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.card-5{
+    width: 26%;
+    height: 70vh;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.image-5{
+    width: 100%;
+    height: 60vh;
+    background-image: url(../images/Rectangle-153.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.price-5{
+      display: flex; 
+      justify-content: space-between;
+}
+
+.butt-8{
+    padding: 8px 40px;
+    margin-top: -30px;
+    display: flex;
+    background-color: rgb(255, 173, 92);
+    color: white;
+    border: none;
+    border-radius: 8px;
+} 
+
+.butt-8:hover{
+    transition: ease-in-out 1s;
+    transform: scale(1.1);
+}
+
+.card-6{
+    width: 26%;
+    height: 70vh; 
+    border-radius: 5px;  
+    justify-content: space-between;
+}
+
+.image-6{
+    width: 100%;
+    height: 60vh;
+    background-image: url(../images/Rectangle-156.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.price-6{
+    display: flex; 
+    justify-content: space-between;
+}
+
+.butt-9{
+    padding: 8px 40px;
+    margin-top: -30px;
+    display: flex;
+    background-color: rgb(5, 59, 0);
+    color: white;
+    border: none;
+    border-radius: 8px;
+} 
+
+.butt-9:hover{
+    transition: ease-in-out 1s;
+    transform: scale(1.1);
+}
+
+.footer-44{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    color: white;
+    background-color: rgb(78, 77, 97);
+    justify-content: center;
+    align-items: center;
+    font-size: 1.10cap;
+}
+
+@media (max-width:500px){
+    
+    .head-1{
+    font-size: 2cap;
+    }
+
+    .buttons{
+        width: 100%;
+        /* background-color: blue; */
+    }
+
+    .butt-1{
+        padding: 7px 18px;
+    }
+
+    .butt-2{
+        padding: 7px 18px;
+    }
+
+    .butt-3{
+        padding: 7px 18px;
+    }
+
+    .link-1{
+        margin-left: -100px;
+        margin-top: 40px;
+    }
+
+    .card-1{
+        width: 45%;
+        height: 30vh;
+        /* background-color: black; */
+    }
+    
+    .name1{
+        font-size: 1.10cap;
+    }
+
+    .cash1{
+        font-size: 1.30cap;
+    }
+
+    .cards-1{
+        /* background-color: black; */
+        height: fit-content;
+    }
+   
+    .cards-2{
+        /* background-color: black; */
+        /* margin-top: -40px; */
+        height: fit-content;
+    }
+  
+    .cards-3{
+        /* background-color: black; */
+        height: fit-content;
+    }
+
+    .image-1{
+        width: 100%;
+        height: 30vh;
+    }
+
+    .butt-4{
+        padding: 5px 24px;
+    }
+
+    .butt-6{
+        padding: 5px 24px;
+    }
+
+    .butt-5{
+        padding: 5px 24px;
+    }
+
+    .butt-7{
+        padding: 5px 24px;
+    }
+
+    .butt-8{
+        padding: 5px 24px;
+    }
+
+    .butt-9{
+        padding: 5px 24px;
+    }
+
+    .card-4{
+        width: 45%;
+        height: 30vh;
+    }
+
+    .image-4{
+        width: 100%;
+        height: 30vh;
+    }
+
+    .card-2{
+        width: 45%;
+        height: 30vh;
+        /* background-color: black; */
+    }
+    
+    .name2{
+        font-size: 1.10cap;
+    }
+
+    .cash2{
+        font-size: 1.30cap;
+    }
+
+    .image-2{
+        width: 100%;
+        height: 30vh;
+    }
+
+    .card-3{
+        width: 45%;
+        height: 30vh;
+        /* background-color: black; */
+    }
+    
+    .name3{
+        font-size: 1.10cap;
+    }
+
+    .cash3{
+        font-size: 1.30cap;
+    }
+
+    .image-3{
+        width: 100%;
+        height: 30vh;
+    }
+
+    .card-5{
+        width: 45%;
+        height: 30vh;
+        /* background-color: black; */
+    }
+    
+    .name5{
+        font-size: 1.10cap;
+    }
+
+    .cash5{
+        font-size: 1.30cap;
+    }
+
+    .image-5{
+        width: 100%;
+        height: 30vh;
+    }
+
+    .card-6{
+        width: 45%;
+        height: 30vh;
+        /* background-color: black; */
+    }
+    
+    .name6{
+        font-size: 1.10cap;
+    }
+
+    .cash6{
+        font-size: 1.30cap;
+    }
+
+    .image-6{
+        width: 100%;
+        height: 30vh;
+    }
+
+
+} 
+
+@media (min-width:501px)and (max-width:800px){
+    
+    .head-1{
+    font-size: 3cap;
+    }
+
+    .buttons{
+        width: 100%;
+        /* background-color: blue; */
+    }
+
+    .butt-1{
+        padding: 9px 20px;
+    }
+
+    .butt-2{
+        padding: 9px 20px;
+    }
+
+    .butt-3{
+        padding: 9px 20px;
+    }
+
+    .card-1{
+        width: 45%;
+        height: 65vh;
+        /* background-color: black; */
+    }
+    
+    .name1{
+        font-size: 1.60cap;
+    }
+
+    .cash1{
+        font-size: 1.60cap;
+    }
+
+    .cards-1{
+        /* background-color: black; */
+        height: fit-content;
+    }
+   
+    .cards-2{
+        /* background-color: black; */
+        /* margin-top: -40px; */
+        height: fit-content;
+    }
+  
+    .cards-3{
+        /* background-color: black; */
+        height: fit-content;
+    }
+
+    .image-1{
+        width: 100%;
+        height: 60vh;
+    }
+
+    .butt-4{
+        padding: 7px 35px;
+    }
+
+    .butt-6{
+        padding: 7px 35px;
+    }
+
+    .butt-5{
+        padding: 7px 35px;
+    }
+
+    .butt-7{
+        padding: 7px 35px;
+    }
+
+    .butt-8{
+        padding: 7px 35px;
+    }
+
+    .butt-9{
+        padding: 7px 35px;
+    }
+
+    .card-4{
+        width: 45%;
+        height: 65vh;
+    }
+
+    .image-4{
+        width: 100%;
+        height: 60vh;
+    }
+
+    .card-2{
+        width: 45%;
+        height: 65vh;
+        /* background-color: black; */
+    }
+    
+    .name2{
+        font-size: 1.10cap;
+    }
+
+    .cash2{
+        font-size: 1.30cap;
+    }
+
+    .image-2{
+        width: 100%;
+        height: 60vh;
+    }
+
+    .card-3{
+        width: 45%;
+        height: 65vh;
+        /* background-color: black; */
+    }
+    
+    .name3{
+        font-size: 1.10cap;
+    }
+
+    .cash3{
+        font-size: 1.30cap;
+    }
+
+    .image-3{
+        width: 100%;
+        height: 60vh;
+    }
+
+    .card-5{
+        width: 45%;
+        height: 65vh;
+        /* background-color: black; */
+    }
+    
+    .name5{
+        font-size: 1.10cap;
+    }
+
+    .cash5{
+        font-size: 1.30cap;
+    }
+
+    .image-5{
+        width: 100%;
+        height: 60vh;
+    }
+
+    .card-6{
+        width: 45%;
+        height: 65vh;
+        /* background-color: black; */
+    }
+    
+    .name6{
+        font-size: 1.10cap;
+    }
+
+    .cash6{
+        font-size: 1.30cap;
+    }
+
+    .image-6{
+        width: 100%;
+        height: 60vh;
+    }
+
+
+} 
+
+
+
+
+
+

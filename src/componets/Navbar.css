@@ -1,0 +1,67 @@
+body{
+  padding: 0;
+  border: 0;
+  margin: 0;
+  background-color:white;
+}
+
+.navbar .nav-links a {
+  /* Styles for all links */
+  color: #000; /* Change to your desired color */
+  text-decoration: none;
+  padding: 10px;
+}
+
+.navbar .nav-links a:hover {
+  /* Styles for hovered links */
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+.navbar .nav-links img {
+  /* Styles for the icon */
+  width: 20px; /* Adjust the width as needed */
+  height: 20px; /* Adjust the height as needed */
+  vertical-align: middle; /* Center the icon vertically */
+}
+/* .navbar .icon {
+  position: relative;
+  top: 5px; 
+  right: 10px; 
+  cursor: pointer;
+} */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px ;
+  background-color: #fff; 
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+}
+
+
+
+@media (max-width:767px) {
+  
+  .title{
+    font-size: 1.50cap;
+  }
+
+}

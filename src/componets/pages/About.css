@@ -1,0 +1,105 @@
+.img-2{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/image-54.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.hed-2{
+    margin-left: 30px;
+}
+
+.pp-2{
+    margin-left: 30px;
+}
+
+.sic-4{
+    width: 96%;
+    height: 40vh;
+    background-color: rgb(253, 161, 80);
+    margin-left: 30px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.hed-3{
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.but-2{
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 172%;
+    left: 5%;
+}
+
+.but-2:hover{
+    transform: scale(1.1);
+    transition: ease-in-out 1s;
+}
+
+.footer-2{
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(54, 54, 54);
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.number{
+   color: white; 
+   margin-left: 43%;
+   font-weight: 300;
+   font-size: 2.35cap;
+}
+
+@media (min-width:300px) and (max-width:601px){
+    .img-2{
+        width: 100%;
+        height: 50vh;
+    }
+    .sic-4{
+        width: 430px;
+    }
+
+    .hed-3{
+        margin-left: 20px;
+        font-size: 2.20cap;
+    }
+
+    .but-2{
+        margin-top: -145px;
+        margin-left: 25px;
+    }
+} 
+
+@media (min-width:601px) and (max-width:1200px){
+    .img-2{
+        width: 100%;
+        height: 50vh;
+    }
+    
+    .sic-4{
+        width: 690px;
+    }
+
+    .hed-3{
+        margin-left: 20px;
+    }
+
+    .but-2{
+        margin-top: -250px;
+        margin-left: 20px;
+    }
+}
+
+
+

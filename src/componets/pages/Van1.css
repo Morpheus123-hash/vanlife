@@ -1,0 +1,171 @@
+body{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    background-color:white;
+}
+
+#home{
+    width: 100%;
+    height: 100vh;
+    /* background-color: blue; */
+}
+
+.back-home{
+    display: none;
+}
+.modest{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    @media (max-width:500px) {
+
+        .back-home{
+            display: block;
+        }
+
+        .modest{
+            width: 100%;
+            background-color: blue;
+        }
+
+        .van-infor{
+            width: 100%;
+            height: auto;
+          
+        }
+
+        .van-infor img{
+            width: 95%;
+            height: auto;
+        }
+
+        .about-1{
+            width: 95%;
+            height: 400px;
+            height: auto;
+            h1,
+            h2{
+                font-size: 1.80cap;
+            }
+            p{
+                font-size: 1.20cap;
+            }
+        }
+
+        .btn-1{
+            width: 100px;
+            height: 40px;
+        }
+
+        .btn-2{
+            width: 300px;
+        }
+
+        .footer-1{
+            height: 10px;
+            font-size: 1cap;
+        }
+    }
+
+    @media (max-width:500px) and (min-width:767px) {
+
+        .g{
+            font-size: 1cap;
+        }
+
+        .modest{
+            width: 100%;
+            background-color: blue;
+        }
+
+        .van-infor{
+            width: 100%;
+            height: auto;
+          
+        }
+
+        .van-infor img{
+            width: 95%;
+            height: auto;
+        }
+
+        .about-1{
+            width: 95%;
+            height: 400px;
+            height: auto;
+            h1,
+            h2{
+                font-size: 1.80cap;
+            }
+            p{
+                font-size: 1.20cap;
+            }
+        }
+
+        .btn-1{
+            width: 100px;
+            height: 40px;
+        }
+
+        .btn-2{
+            width: 500px;
+        }
+
+        .footer-1{
+            height: 10px;
+            font-size: 1cap;
+        }
+    }
+}
+
+.van-infor{
+    width: 600px;
+    height: 500px; 
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+}
+
+.van-infor img{
+    width: 600px;
+    height: 500px;
+    border-radius: 5px; 
+}
+
+.about-1{
+    width: 600px;
+    height: 400px;
+}
+
+.btn-1{
+    width: 130px;
+    height: 40px;
+    border-radius: 6px;
+    margin-top: 20px;
+    border: 4px solid  rgb(255, 98, 40);
+}
+
+.btn-2{
+    width: 500px;
+    height: 40px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(255, 98, 40);
+}
+
+.footer-1{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    color: white;
+    background-color: rgb(78, 77, 97);
+    justify-content: center;
+    align-items: center;
+}
+
+

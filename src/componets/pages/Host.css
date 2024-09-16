@@ -1,0 +1,92 @@
+.dashboard-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .header h1 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .header nav ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .dashboard-content {
+    padding: 20px;
+  }
+  
+  .dashboard-stats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-stats div {
+    text-align: center;
+  }
+  
+  .dashboard-stats h3 {
+    margin-bottom: 5px;
+  }
+  
+  .dashboard-stats p {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .star-rating {
+    font-size: 20px;
+    color: gold;
+  }
+  
+  .listed-vans {
+    margin-top: 20px;
+  }
+  
+  .listed-vans h3 {
+    margin-bottom: 10px;
+  }
+  
+  .listed-vans ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .listed-vans li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .listed-vans li img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .listed-vans li div {
+    margin-left: 10px;
+  }
+  
+  .listed-vans li div h4 {
+    margin-bottom: 5px;
+  }
+  
